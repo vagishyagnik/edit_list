@@ -1,0 +1,95 @@
+@media(max-width:1700px)
+{
+*{
+    align-content: center;
+    background-color: lavender;
+    font-size: 25px;
+    font-family: algerian;
+    
+}
+button{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: aqua;
+    box-shadow: 1px 1px 1px 1px,2px 2px 2px 2px rgb(158, 54, 50);
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius: 0px
+
+}
+button:hover{
+    background-color: aliceblue;
+    color:rgb(69, 0, 230);
+    opacity:0.5;
+    transition:all 0.8s;
+}
+button:active:after{
+    opacity:1;
+    
+}
+
+input{
+    background-color: rgb(203, 241, 250);
+    color: rgb(238, 3, 3);
+    outline:none;
+    border:none;
+    border-bottom: 2px solid rgb(114, 32, 32);
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+
+li{
+    margin-left: 50%;
+    background: rgb(0, 255, 21);
+    width: 20%;
+    margin-left: -4%;
+}
+ol{
+    list-style-type:none;
+    }
+
+li:nth-child(even) {background: rgb(17, 235, 126)}
+}    
+
+@media(max-width:450px)
+{
+    *{
+        font-size: 15px;
+        font-family: algerian;
+        
+    }    
+    
+button{
+    font-size: 15px;
+    color: aqua;
+
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius: 0px
+
+}
+
+li{
+    margin-left: 50%;
+    background: rgb(0, 255, 21);
+    width: 50%;
+    margin-left: -16%;
+}
+input{
+    font-size: 15px;
+    
+    
+}
+
+}
+    
